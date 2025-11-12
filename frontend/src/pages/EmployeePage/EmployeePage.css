@@ -1,0 +1,44 @@
+.page-container {
+  padding: 24px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.filter-section {
+  margin-bottom: 16px;
+  max-width: 300px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.loading-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.error-state {
+  text-align: center;
+  padding: 48px;
+}
+
+.error-state h3 {
+  color: #ef4444;
+  margin-bottom: 8px;
+}
