@@ -1,0 +1,46 @@
+.radio-group-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.radio-group-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.radio-options {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.radio-option:hover {
+  background: #f9fafb;
+}
+
+.radio-input {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  accent-color: #0ea5e9;
+}
+
+.radio-label {
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+  user-select: none;
+}

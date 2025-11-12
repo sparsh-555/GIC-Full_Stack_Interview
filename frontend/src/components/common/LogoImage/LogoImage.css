@@ -1,0 +1,48 @@
+.logo-image,
+.logo-placeholder {
+  border-radius: 4px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+/* Size variations */
+.logo-small {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-medium {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-large {
+  width: 150px;
+  height: 150px;
+}
+
+/* Placeholder styles */
+.logo-placeholder {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  border: 1px solid #e0e0e0;
+}
+
+.logo-placeholder svg {
+  width: 60%;
+  height: 60%;
+}
+
+/* Image specific styles */
+.logo-image {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+.logo-image:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}

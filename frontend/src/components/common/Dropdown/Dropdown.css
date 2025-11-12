@@ -1,0 +1,20 @@
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.dropdown-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.custom-dropdown.error .ant-select-selector {
+  border-color: #ef4444 !important;
+}
+
+.custom-dropdown.error:hover .ant-select-selector {
+  border-color: #ef4444 !important;
+}
